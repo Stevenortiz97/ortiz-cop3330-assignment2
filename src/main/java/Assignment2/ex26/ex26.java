@@ -28,7 +28,10 @@ public class ex26 {
             userinputNumerical();
 
             PaymentCalculator calculator = new PaymentCalculator();
-            double months = calculator.calculateMonthsUntilPaidOff(balance,aprDecimal,payment);
+            int monthsRounded = (int) calculator.calculateMonthsUntilPaidOff(balance,aprDecimal,payment);
+
+
+            output(monthsRounded);
 
 
         }
@@ -37,16 +40,22 @@ public class ex26 {
 
             double apr;
 
-            System.out.print("What is your balance?");
+            System.out.print("What is your balance? ");
             balance = in.nextDouble();
 
-            System.out.print("What is the APR on the card (as a percent)?");
+            System.out.print("What is the APR on the card (as a percent)? ");
             apr = in.nextDouble();
             aprDecimal = apr / 100;
 
-            System.out.print("What is the monthly payment you can make??");
+            System.out.print("What is the monthly payment you can make? ");
             payment = in.nextDouble();
 
+        }
+
+        private static void output(int monthsRounded){
+
+
+            System.out.print("It will take you " + monthsRounded + " months to pay off this card.");
 
         }
 
