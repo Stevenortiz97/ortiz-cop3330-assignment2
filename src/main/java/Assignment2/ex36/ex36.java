@@ -57,22 +57,29 @@ public class ex36 {
 
     }
 
+    private static void average(ArrayList listofNumbers) {
 
-    private static void average() {
+        //double doubleArray = Double.parseDouble(listofNumbers);
 
-     double listofNumbersDouble = Double.parseDouble(listofNumbers);
+        int i;
+        int intArray;
 
-     double total = 0;
+        intArray = new ArrayList[listofNumbers.size()];
 
-        for(int i=0; i<listofNumbersDouble.length; i++){
+        for(i=0; i<listofNumbers.size(); i++){
 
-            total = total + listofNumbersDouble[i];
+            intArray[i] = listofNumbers[i];
+
         }
 
-        double average = total / listofNumbersDouble.length;
 
-        System.out.format("The average is: %.3f", average);
+
+
+
+
+
+
     }
-
-    }
-
+//double total = 0;
+//double average = total / doubleArray.size();
+// System.out.format("The average is: %.3f", average);
