@@ -4,30 +4,30 @@ import java.util.List;
 
 public class names {
 
-        public static void updatedNames(String removedEmployee) {
+        public static void namesNew(String removedEmployee) {
 
-            List<String> namesList = new ArrayList<>();
-            namesList.add("John Smith");
-            namesList.add("Jackie Jackson");
-            namesList.add("Chris Jones");
-            namesList.add("Amanda Cullen");
-            namesList.add("Jeremy Goodwin");
+            List<String> list = new ArrayList<>();
+
+            list.add("John Smith");
+            list.add("Jackie Jackson");
+            list.add("Chris Jones");
+            list.add("Amanda Cullen");
+            list.add("Jeremy Goodwin");
 
             switch (removedEmployee) {
-                case "John Smith" -> namesList.remove("John Smith");
-                case "Jackie Jackson" -> namesList.remove("Jackie Jackson");
-                case "Chris Jones" -> namesList.remove("Chris Jones");
-                case "Amanda Cullen" -> namesList.remove("Amanda Cullen");
-                case "Jeremy Goodwin" -> namesList.remove("Jeremy Goodwin");
+
+                case "John Smith" -> list.remove("John Smith");
+                case "Jackie Jackson" -> list.remove("Jackie Jackson");
+                case "Chris Jones" -> list.remove("Chris Jones");
+                case "Amanda Cullen" -> list.remove("Amanda Cullen");
+                case "Jeremy Goodwin" -> list.remove("Jeremy Goodwin");
             }
 
             System.out.println("There are 4 employees:");
-            for (String s : namesList) {
 
+            for (String s : list) {
                 System.out.println(s);
-
             }
-
         }
     }
 

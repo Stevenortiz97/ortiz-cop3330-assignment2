@@ -27,9 +27,11 @@ public class ex30 {
             for(int j = 1; j <= 12; j++){
 
                 int num = i * j;
-                System.out.print(String.format("%5d", num));
+
+                System.out.printf("%5d", num);
 
                 if( j == 12){
+
                     System.out.println(" ");
 
                 }

@@ -24,7 +24,7 @@ public class ex36 {
 
     private static final Scanner in = new Scanner(System.in);
 
-    private static String listofNumbers;
+    private static String list;
 
     public static void main(String[] args){
 
@@ -64,19 +64,13 @@ public class ex36 {
         int i;
         int intArray;
 
-        intArray = new ArrayList[listofNumbers.size()];
+        intArray = new ArrayList[list.size()];
 
-        for(i=0; i<listofNumbers.size(); i++){
+        for(i=0; i<list.size(); i++){
 
-            intArray[i] = listofNumbers[i];
+            intArray[i] = list[i];
 
         }
-
-
-
-
-
-
 
 
     }

@@ -16,9 +16,9 @@ import java.util.Scanner;
 public class ex37 {
 
         private static final Scanner in = new Scanner(System.in);
-        private static int num;
-        private static int characters;
-        private static int min;
+        private static double num;
+        private static double characters;
+        private static double min;
 
         private static void input(){
 
@@ -40,7 +40,7 @@ public class ex37 {
 
         generator rpg = new generator();
 
-        rpg.generate(min, characters, num);
+        generator.generate(min, characters, num);
     }
 
     }

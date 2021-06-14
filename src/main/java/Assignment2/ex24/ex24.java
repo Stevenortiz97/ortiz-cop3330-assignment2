@@ -1,3 +1,13 @@
+/*
+// *  UCF COP3330 Summer 2021 Assignment 2 - 24
+// *  Copyright 2021 Steven Ortiz
+// */
+//Enter two strings and I'll tell you if they are anagrams:
+//Enter the first string: note
+//Enter the second string: tone
+//"note" and "tone" are anagrams.
+
+
 
 package Assignment2.ex24;
 import java.util.Scanner;
@@ -37,9 +47,5 @@ public static String generateOutput(boolean isAnagram){
         }
         return output;
         }
-
-
-
-
 
 }

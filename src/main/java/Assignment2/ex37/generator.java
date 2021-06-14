@@ -10,7 +10,7 @@ import java.util.Random;
 
 public class generator {
 
-        public static void generate( int min, int characters, int num){
+        public static void generate( double min, double characters, double num){
 
             String special = "><%^&@?*!#$+()";
 

@@ -21,12 +21,6 @@ public class ex35 {
 
     private static final Scanner in = new Scanner(System.in);
 
-    public static void main(String[] args){
-
-        namesLoop();
-
-    }
-
     private static void namesLoop(){
 
         String input;
@@ -35,6 +29,7 @@ public class ex35 {
 
         while (true){
             System.out.print("Enter a name: ");
+
             input = in.nextLine();
 
             if (input == ""){
@@ -54,6 +49,14 @@ public class ex35 {
 
         String randomName = listofNames.get(randomInt);
 
-        System.out.print("The winner is..." + randomName);
+        System.out.print("The winner is... " + randomName);
     }
+
+    public static void main(String[] args){
+
+        namesLoop();
+
     }
+
+
+}

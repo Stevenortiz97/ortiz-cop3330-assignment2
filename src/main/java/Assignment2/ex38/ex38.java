@@ -20,15 +20,15 @@ public class ex38 {
 
             return in.nextLine();
         }
-    private static void output(char[] input, String userInput){
+    private static void output(char[] input, String input1){
 
         System.out.print("The even numbers are ");
 
-        for( int i = 0; i < userInput.length(); i++ ){
+        for( int i = 0; i < input1.length(); i++ ){
 
             if ( input[i] % 2 == 0 ){
 
-                System.out.print(+input[i]);
+                System.out.print(""+input[i]);
             }
         }
     }
@@ -52,4 +52,5 @@ public class ex38 {
 
         output(input,num);
     }
-    }
+
+}

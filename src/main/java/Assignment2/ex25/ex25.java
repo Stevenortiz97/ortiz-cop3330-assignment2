@@ -1,6 +1,19 @@
+/*
+// *  UCF COP3330 Summer 2021 Assignment 2 - 25
+// *  Copyright 2021 Steven Ortiz
+// */
+
+
+//The password '12345' is a very weak password.
+//The password 'abcdef' is a weak password.
+//The password 'abc123xyz' is a strong password.
+//The password '1337h@xor!' is a very strong password.
+
+
 package Assignment2.ex25;
 import java.util.Scanner;
-//public class ex25 {
+
+public class ex25 {
 
         private static final Scanner in = new Scanner(System.in);
 

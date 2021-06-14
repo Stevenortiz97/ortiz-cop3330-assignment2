@@ -20,11 +20,7 @@ public class ex29 {
 
         private static final Scanner in = new Scanner(System.in);
 
-        private static String userInput;
-
         private static String check() {
-
-            double count = 1;
 
             String input;
 
@@ -42,10 +38,12 @@ public class ex29 {
 
                     System.out.println("Sorry, that's not a valid input.");
                 }
+
                 else{
+
                     break;
                 }
-            } while( count != 0);
+            } while(true);
 
             return input;
 
